@@ -538,8 +538,8 @@ video {
   position: absolute;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.bottom-auto {
+  bottom: auto;
 }
 
 .left-0 {
@@ -552,14 +552,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.-bottom-1 {
-  bottom: -0.25rem;
-}
-
-.bottom-auto {
-  bottom: auto;
 }
 
 .mx-4 {
@@ -687,6 +679,11 @@ video {
 
 .text-5xl {
   font-size: 3rem;
+  line-height: 1;
+}
+
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 
